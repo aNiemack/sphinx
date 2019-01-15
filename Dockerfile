@@ -8,7 +8,7 @@ RUN apk add python-dev \
   py-numpy \
   make \ 
   git \
-  texlive
+  texlive-full
   
 RUN pip install --upgrade pip
 
