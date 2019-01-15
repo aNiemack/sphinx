@@ -5,7 +5,7 @@ RUN apk update \
     
 RUN apk add python-dev \
   py-pip \
-  python-numpy \
+  py-numpy \
   make \ 
   git 
   
@@ -13,4 +13,5 @@ RUN pip install --upgrade pip
 
 RUN pip install sphinx \
   sphinx_bootstrap_theme \
-  sphinx-fortran
+  sphinx-fortran \
+  recommonmark
