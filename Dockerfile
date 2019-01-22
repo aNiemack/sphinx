@@ -13,7 +13,7 @@ RUN apk add python-dev \
     
 RUN pip install --upgrade pip
 
-RUN pip install sphinx==1.8.3 \
+RUN pip install sphinx==1.4.4 \
   sphinx_bootstrap_theme \
-  sphinx-fortran \
+  sphinx-fortran==1.0.1 \
   recommonmark
