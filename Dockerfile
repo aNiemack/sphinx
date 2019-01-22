@@ -13,7 +13,7 @@ RUN apk add python-dev \
     
 RUN pip install --upgrade pip
 
-RUN pip install sphinx=1.6.7 \
+RUN pip install sphinx==1.6.7 \
   sphinx_bootstrap_theme \
   sphinx-fortran \
   recommonmark
