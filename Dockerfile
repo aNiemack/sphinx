@@ -5,7 +5,6 @@ RUN apk update \
     
 RUN apk add python-dev \
   py-pip \
-  py-numpy \
   make \ 
   git \
   texlive-full \
@@ -15,5 +14,7 @@ RUN pip install --upgrade pip
 
 RUN pip install sphinx==1.4.4 \
   sphinx_bootstrap_theme \
+  docutils==0.12 \
+  numpy==1.15.4 \
   sphinx-fortran==1.0.1 \
   recommonmark
