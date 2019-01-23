@@ -7,6 +7,8 @@ RUN apk add python-dev \
   py-pip \
   make \ 
   git \
+  gcc \
+  libc-dev \
   texlive-full \
   openssh
     
