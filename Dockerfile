@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-RUN apk update && 
-    apk upgrade && 
+RUN apk update && \
+    apk upgrade && \
     apk add python-dev \
       py-pip \
       make \ 
@@ -9,8 +9,8 @@ RUN apk update &&
       gcc \
       libc-dev \
       texlive-full \
-      openssh &&
-    pip install --upgrade pip &&
+      openssh && \
+    pip install --upgrade pip && \
     pip install sphinx==1.4.4 \
       sphinx_bootstrap_theme \
       docutils==0.12 \
