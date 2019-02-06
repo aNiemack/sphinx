@@ -12,7 +12,7 @@ RUN apk update && \
       openssh && \
     pip install --upgrade pip && \
     pip install sphinx==1.4.4 \
-      sphinx_bootstrap_theme \
+      sphinx_rtd_theme \
       docutils==0.12 \
       numpy==1.15.4 \
       sphinx-fortran==1.0.1 \
